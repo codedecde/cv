@@ -42,6 +42,8 @@
 \usepackage{enumitem} % to move itemize items a little to the left
 \setlist[itemize]{leftmargin=0mm}
 
+\usepackage{multicol}
+
 
 \title{CV for Industries}
 \begin{document}  % begin the content of the document
@@ -100,7 +102,7 @@
   
     {
     \href{https://turing.microsoft.com}{Link to Team Description}  \hfill \textit{Senior Applied Scientist, Applied Scientist II}  \\
-    I work on building better representation and generative foundational multilingual and multimodal language models. The work is instrumental in pushing frontiers on academic benchmarks (\href{https://blogs.bing.com/search-quality-insights/october-2022/Microsoft-Turing-Universal-Language-Representation-model,-T-ULRv6,-tops-both-XTREME-and-GLUE-leaderb}{$1^{st}$ on both XTREME and GLUE benchmarks}), as well as cutting edge user experiences like \href{https://blogs.microsoft.com/blog/2023/02/07/reinventing-search-with-a-new-ai-powered-microsoft-bing-and-edge-your-copilot-for-the-web/}{Bing Chat}. My work spans all aspects of building these models: processing petabyte scale data, scaling models to billions of parameters, exploring novel ways to reduce latency, developing different pre-training strategies as well as post-training strageties to improve the alignment of these models. I also work closely with different university research labs further advance research on understanding the capabilities and shortcomings of these models (\href{https://www.microsoft.com/en-us/research/collaboration/microsoft-turing-academic-program/}{Microsoft Turing Academic Program}).
+    I work on building better representation and generative foundational multilingual and multimodal language models. The work is instrumental in pushing frontiers on academic benchmarks (\href{https://blogs.bing.com/search-quality-insights/october-2022/Microsoft-Turing-Universal-Language-Representation-model,-T-ULRv6,-tops-both-XTREME-and-GLUE-leaderb}{$1^{st}$ on both XTREME and GLUE benchmarks}), as well as cutting edge user experiences like \href{https://blogs.microsoft.com/blog/2023/02/07/reinventing-search-with-a-new-ai-powered-microsoft-bing-and-edge-your-copilot-for-the-web/}{Bing Chat}. My work spans all aspects of building these models: processing petabyte scale data, scaling models to billions of parameters, exploring novel ways to reduce latency, developing different pre-training strategies as well as post-training strategies to improve the alignment of these models. I also work closely with different university research labs further advance research on understanding the capabilities and shortcomings of these models (\href{https://www.microsoft.com/en-us/research/collaboration/microsoft-turing-academic-program/}{Microsoft Turing Academic Program}).
     
     }
 }
@@ -148,7 +150,22 @@
 \pagebreak
 \spacedhrule{0.6em}{-0.4em}  % a horizontal line with some vertical spacing before and after
 \roottitle{{Academic Services}}
-I have served as a reviwer for EMNLP 2022, NeurIPS 2022, ACL 2022, ICLR 2022, ACL 2021, NAACL 2021, GHC 2020, AAAI 2018 and am a part of the ACL Rolling Reviews cycles.
+I have served as a reviwer for the following conferences
+\begin{multicols}{3}
+\begin{itemize}[label={}]
+% \setlength\itemsep{0.0 em} % for line spacing in the list
+\item ACL Rolling Reviews (2021, 2022, 2023)
+\item EMNLP (2022$^{\dagger}$, 2023)
+\item TPAMI (2023)
+\item NeurIPS (2022, 2023)
+\item ACL(2021, 2022)
+\item ICLR (2022)
+\item GHC (2020)
+\item AAAI (2018)
+\end{itemize}
+\end{multicols}
+\textit{$\dagger$ indicates outstanding reviewer}
+
 \spacedhrule{0.6em}{-0.4em}  % a horizontal line with some vertical spacing before and after
 
 \roottitle{{Patents}}
@@ -169,8 +186,8 @@ I have served as a reviwer for EMNLP 2022, NeurIPS 2022, ACL 2022, ICLR 2022, AC
  \begin{itemize}[label={}]
     %[label=\raisebox{0.25ex}{\tiny$\bullet$}]
     \setlength\itemsep{0.0 em} % for line spacing in the list
+    \item \href{https://aclanthology.org/2023.acl-tutorials.3/}{\textbf{Everything you need to know about Multilingual LLMs: Towards fair, performant and reliable models for languages of the world}} Sunayana Sitaram, Monojit Choudhury, Barun Patra, Vishrav Chaudhary, Kabir Ahuja, Kalika Bali. (\textbf{Tutorial @ ACL 2023})
     \item \href{https://arxiv.org/abs/2302.14045}{\textbf{Language Is Not All You Need: Aligning Perception with Language Models}} Shaohan Huang, Li Dong, Wenhui Wang, Yaru Hao, Saksham Singhal, Shuming Ma, Tengchao Lv, Lei Cui, Owais Khan Mohammed, Barun Patra, Qiang Liu, Kriti Aggarwal, Zewen Chi, Johan Bjorck, Vishrav Chaudhary, Subhojit Som, Xia Song, Furu Wei. (\textbf{arXiv:2302.14045})
-    \item \textbf{Everything you need to know about Multilingual LLMs: Towards fair, performant and reliable models for languages of the world} Barun Patra$^{*}$, Kabir Ahuja$^{*}$, Vishrav Chaudhary$^{*}$, Sunayana Sitaram$^{*}$, Kalika Bali$^{*}$, Monojit Choudhury. (\textbf{ACL 2023})
     \item \href{https://arxiv.org/abs/2210.14867}{\textbf{Beyond English-Centric Bitexts for Better Multilingual Language Representation Learning }} Barun Patra$^{*}$, Saksham Singhal$^{*}$, Shaohan Huang$^{*}$, Zewen Chi, Li Dong, Furu Wei, Vishrav Chaudhary and Xia Song. (\textbf{ACL 2023})
     \item \href{https://arxiv.org/abs/2212.10554}{\textbf{A Length-Extrapolatable Transformer}} Yutao Sun, Li Dong, Barun Patra, Shuming Ma, Shaohan Huang, Alon Benhaim, Vishrav Chaudhary, Xia Song, Furu Wei. (\textbf{ACL 2023})
     \item \href{https://arxiv.org/abs/2210.06423}{\textbf{Foundational Transformers}} Hongyu Wang, Shuming Ma, Shaohan Huang, Li Dong, Wenhui Wang, Zhiliang Peng, Yu Wu, Payal Bajaj, Saksham Singhal, Alon Benhaim, Barun Patra, Zhun Liu, Vishrav Chaudhary, Xia Song and Furu Wei. (\textbf{ICML 2023})
